@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Isfakur Rahman — Computer & Communication Engineering student at IIUC and aspiring web developer."
+    />
+    <title>Isfakur Rahman | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Hind+Siliguri:wght@600;700&family=JetBrains+Mono:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Tiro+Bangla&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Isfakur home">
+          <span class="brand-mark">I</span>
+          <span>ISFAKUR<span class="brand-dot">.</span></span>
+        </a>
+        <div class="nav-links" id="navLinks">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a class="nav-cta" href="#contact"
+          >Let's talk <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="status-dot"></span> OPEN TO LEARNING &amp;
+            COLLABORATION
+          </div>
+          <p class="hero-kicker">HELLO, I'M</p>
+          <h1>Isfakur<br /><span>Rahman.</span></h1>
+          <h2>
+            CCE Undergraduate <span class="muted">·</span> Aspiring Web
+            Developer
+          </h2>
+          <p class="hero-description">
+            I build thoughtful, accessible, and responsive digital experiences.
+            Currently pursuing my B.Sc. in Computer and Communication
+            Engineering at IIUC while crafting modern web interfaces.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects"
+              >Explore my work <span aria-hidden="true">↘</span></a
+            >
+            <a class="button button-quiet" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-meta">
+            <span><span class="meta-line"></span> Teknaf, Cox's Bazar</span>
+            <span>ID: E261018 · B.Sc. in CCE</span>
+          </div>
+        </div>
+
+        <!-- 3D IIUC STUDENT ID CARD & V-LANYARD -->
+        <div
+          class="hero-visual"
+          aria-label="Interactive 3D IIUC Student ID Card"
+        >
+          <div class="visual-grid"></div>
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+
+          <div class="id-stage" id="idStage">
+            <div class="lanyard-assembly" id="lanyardRig">
+              <div class="lanyard-v-straps">
+                <div class="strap strap-left">
+                  <span class="strap-text"
+                    >International Islamic University</span
+                  >
+                  <div class="strap-white-patch">
+                    <span class="patch-logo">IIUC</span>
+                  </div>
+                </div>
+                <div class="strap strap-right">
+                  <span class="strap-text">Islamic University Chittagong</span>
+                  <div class="strap-white-patch">
+                    <span class="patch-logo">IIUC</span>
+                  </div>
+                </div>
+              </div>
+              <div class="lanyard-collar"><div class="rivet-stud"></div></div>
+              <div class="metal-ring"></div>
+              <div class="lobster-clasp">
+                <div class="clasp-body"></div>
+                <div class="clasp-hook"></div>
+              </div>
+            </div>
+
+            <div
+              class="id-card-wrapper"
+              id="idCardWrapper"
+              title="Move cursor or touch to tilt · Tap card to flip"
+            >
+              <div class="id-card-inner" id="idCardInner">
+                <!-- FRONT SIDE -->
+                <div class="id-face id-front">
+                  <div class="id-glare" id="idGlare"></div>
+                  <div class="holder-bevel-top">
+                    <div class="holder-slot"></div>
+                  </div>
+
+                  <div class="card-insert front-insert">
+                    <div class="front-top-crimson"></div>
+                    <div class="iiuc-crest-wrap">
+                      <svg
+                        class="iiuc-crest-svg"
+                        viewBox="0 0 64 56"
+                        xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M12 4 H52 V28 C52 40 32 48 32 48 C32 48 12 40 12 28 Z"
+                          fill="#172b85"
+                          stroke="#ffffff"
+                          stroke-width="1.5"
+                        />
+                        <text
+                          x="32"
+                          y="16"
+                          text-anchor="middle"
+                          fill="#ffffff"
+                          font-family="Times New Roman, serif"
+                          font-weight="bold"
+                          font-size="10.5"
+                          letter-spacing="1.2"
+                        >
+                          IIUC
+                        </text>
+                        <path
+                          d="M21 23 Q27 21 32 24 Q37 21 43 23 V32 Q37 30 32 33 Q27 30 21 32 Z"
+                          fill="none"
+                          stroke="#ffffff"
+                          stroke-width="1.5"
+                        />
+                        <line
+                          x1="32"
+                          y1="24"
+                          x2="32"
+                          y2="33"
+                          stroke="#ffffff"
+                          stroke-width="1.3"
+                        />
+                        <path
+                          d="M6 36 Q18 46 32 49 Q46 46 58 36 L54 43 Q43 52 32 54 Q21 52 10 43 Z"
+                          fill="#15803d"
+                        />
+                      </svg>
+                    </div>
+
+                    <div class="uni-header-block">
+                      <div class="uni-title-bn">
+                        আন্তর্জাতিক ইসলামী বিশ্ববিদ্যালয় চট্টগ্রাম
+                      </div>
+                      <div class="uni-title-en">
+                        International Islamic University Chittagong
+                      </div>
+                    </div>
+
+                    <div class="photo-section">
+                      <div class="vertical-id-strip">STUDENT ID CARD</div>
+                      <div class="student-photo-frame">
+                        <img
+                          src="profile.jpg"
+                          alt="Isfakur Rahman"
+                          onerror="
+                            this.src = './profile.jpg';
+                            this.onerror = function () {
+                              this.style.display = 'none';
+                              this.nextElementSibling.style.display = 'grid';
+                            };
+                          "
+                        />
+                        <div class="photo-fallback">IR</div>
+                      </div>
+                      <div class="id-number-col">
+                        <span class="id-no-heading">ID No.:</span>
+                        <span class="id-no-code">E261018</span>
+                      </div>
+                    </div>
+
+                    <div class="student-info-block">
+                      <div class="student-full-name">Isfakur Rahman</div>
+                      <table class="info-table">
+                        <tr>
+                          <td class="lbl">Reg. No.</td>
+                          <td class="val bold-num">: 0062610005991018</td>
+                        </tr>
+                        <tr>
+                          <td class="lbl">Enrollment</td>
+                          <td class="val">: Spring 2026</td>
+                        </tr>
+                        <tr>
+                          <td class="lbl">Validity</td>
+                          <td class="val">: Autumn 2029</td>
+                        </tr>
+                        <tr>
+                          <td class="lbl">Blood Group</td>
+                          <td class="val">: O+ve</td>
+                        </tr>
+                        <tr>
+                          <td class="lbl">Nationality</td>
+                          <td class="val">: Bangladeshi</td>
+                        </tr>
+                      </table>
+                    </div>
+
+                    <div class="signature-area">
+                      <div class="sig-box">
+                        <svg
+                          class="sig-svg"
+                          viewBox="0 0 120 34"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M18 24 C28 8, 36 6, 40 24 M22 18 L48 16 M46 10 L46 26 M54 10 L54 26 M42 15 L62 15 M43 21 L60 21 M64 23 C70 14, 76 26, 84 18 C92 12, 102 14, 112 16"
+                            fill="none"
+                            stroke="#111827"
+                            stroke-width="1.8"
+                            stroke-linecap="round"
+                          />
+                        </svg>
+                        <div class="sig-line"></div>
+                        <div class="sig-caption">Director, ACAD</div>
+                      </div>
+                    </div>
+
+                    <div class="front-bottom-crimson">
+                      Program : <strong>B. Sc in CCE</strong>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- BACK SIDE -->
+                <div class="id-face id-back">
+                  <div class="id-glare" id="idGlareBack"></div>
+                  <div class="holder-bevel-top">
+                    <div class="holder-slot"></div>
+                  </div>
+
+                  <div class="card-insert back-insert">
+                    <div class="precautions-block">
+                      <h4 class="precautions-title">Precautions:</h4>
+                      <ol class="precautions-list">
+                        <li>
+                          This card must be carried all times when you are in
+                          the University Campus.
+                        </li>
+                        <li>
+                          If the card is lost or damaged, report to ACAD
+                          immediately and apply to reissue the card with Tk.
+                          300/-
+                        </li>
+                      </ol>
+                    </div>
+
+                    <div class="return-banner">
+                      If found, please return this card to:
+                    </div>
+
+                    <div class="acad-address-block">
+                      <div class="acad-dept">
+                        Academic Affairs Division (ACAD)
+                      </div>
+                      <div class="acad-uni">
+                        International Islamic University Chittagong
+                      </div>
+                      <div class="acad-loc">
+                        Kumira, Chattogram-4318, Bangladesh.
+                      </div>
+                      <div class="acad-contact">
+                        Tel : IIUC PABX 09613230505-8, Extn : 1926-29
+                      </div>
+                      <div class="acad-contact">
+                        Mobile No.: 01720-478621, 01894-798994
+                      </div>
+                      <div class="acad-web">Web : www.iiuc.ac.bd</div>
+                    </div>
+
+                    <div class="back-barcode-wrap">
+                      <div
+                        class="real-barcode"
+                        aria-label="Barcode E261018"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="id-controls">
+            <button type="button" class="flip-pill-btn" id="flipBtn">
+              <span class="pulse-dot"></span> Flip Card (Front / Back)
+            </button>
+            <span class="tilt-note">Move cursor or touch to tilt in 3D</span>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#about"
+          ><span class="scroll-wheel"></span> SCROLL TO EXPLORE</a
+        >
+      </section>
+
+      <section class="section container reveal" id="about">
+        <div class="section-heading">
+          <p class="section-label">01 / ABOUT</p>
+          <h2>A little about <span>me.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-lead">
+            <p class="large-copy">
+              I’m a Computer Engineering student from
+              <span>Teknaf, Cox's Bazar</span>, focusing on modern web
+              development and clean UI architecture.
+            </p>
+          </div>
+          <div class="about-details">
+            <p>
+              I enjoy breaking down how interactive websites work, experimenting
+              with layout systems, and turning ideas into functional code.
+              Currently pursuing my undergraduate degree in Computer and
+              Communication Engineering (CCE) at IIUC.
+            </p>
+            <p>
+              Every project here is part of my continuous journey of building,
+              refining, and mastering front-end engineering.
+            </p>
+            <div class="about-facts">
+              <div>
+                <span class="fact-number">01</span
+                ><span class="fact-label">LEARN<br />WITH CURIOSITY</span>
+              </div>
+              <div>
+                <span class="fact-number">02</span
+                ><span class="fact-label">BUILD<br />WITH PURPOSE</span>
+              </div>
+              <div>
+                <span class="fact-number">03</span
+                ><span class="fact-label">IMPROVE<br />EVERY DAY</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section reveal" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">02 / SKILLS &amp; STACK</p>
+            <h2>Tools I work <span>with.</span></h2>
+            <p class="section-intro">
+              Core technologies and tools I use to design, structure, and ship
+              responsive web experiences.
+            </p>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <span class="skill-number">01</span>
+              <div class="skill-icon">5</div>
+              <h3>HTML5</h3>
+              <p>
+                Semantic document structure, SEO-friendly markup, and accessible
+                web architecture.
+              </p>
+              <span class="skill-status">CORE FOUNDATION</span>
+            </article>
+            <article class="skill-card">
+              <span class="skill-number">02</span>
+              <div class="skill-icon">#</div>
+              <h3>CSS3 &amp; 3D UI</h3>
+              <p>
+                Responsive Grid/Flexbox layouts, custom properties, 3D
+                transforms, and fluid animations.
+              </p>
+              <span class="skill-status">CORE FOUNDATION</span>
+            </article>
+            <article class="skill-card">
+              <span class="skill-number">03</span>
+              <div class="skill-icon">JS</div>
+              <h3>JavaScript</h3>
+              <p>
+                DOM manipulation, interactive 3D physics, pointer events, and
+                dynamic UI state logic.
+              </p>
+              <span class="skill-status">BUILDING</span>
+            </article>
+            <article class="skill-card">
+              <span class="skill-number">04</span>
+              <div class="skill-icon">⌘</div>
+              <h3>Git &amp; GitHub</h3>
+              <p>
+                Version control workflows, repository management, and static
+                deployment via GitHub Pages.
+              </p>
+              <span class="skill-status skill-planned">PRACTICING</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="projects">
+        <div class="section-heading project-heading">
+          <div>
+            <p class="section-label">03 / SELECTED WORK</p>
+            <h2>Things I’m <span>building.</span></h2>
+          </div>
+          <p class="section-intro">
+            Featured builds and interface experiments created while sharpening
+            my engineering workflow.
+          </p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <div class="project-art art-one">
+              <div class="browser-bar">
+                <i></i><i></i><i></i><span>ISFAKUR.DEV / PORTFOLIO</span>
+              </div>
+              <div class="art-content">
+                <span>UI / 3D INTERACTION</span>
+                <strong>PORTFOLIO<br />V2<span>.</span></strong>
+                <small>INTERACTIVE 3D CREDENTIAL</small>
+              </div>
+              <div class="art-orb"></div>
+            </div>
+            <div class="project-info">
+              <div>
+                <span class="project-type">01 — FEATURED BUILD</span>
+                <h3>3D Interactive Portfolio</h3>
+                <p>
+                  Responsive dark-mode portfolio featuring an authentic 3D IIUC
+                  student ID card with dual-sided flip and physics tilt.
+                </p>
+              </div>
+              <span class="project-arrow">↗</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art art-two">
+              <div class="code-window">
+                <div class="code-head">
+                  <i></i><i></i><i></i><span>app.js</span>
+                </div>
+                <div class="code-lines">
+                  <b></b><b></b><b></b><b></b><b></b><b></b>
+                </div>
+                <div class="code-caption">CLEAN. MODULAR. FAST.</div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <span class="project-type">02 — FRONT-END LAB</span>
+                <h3>UI Component Sandbox</h3>
+                <p>
+                  A collection of reusable glassmorphic cards,
+                  micro-interactions, and responsive grid layouts.
+                </p>
+              </div>
+              <span class="project-arrow">↗</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art art-three">
+              <div class="shape-ring"></div>
+              <div class="shape-text">
+                IDEAS<br />INTO<br /><em>INTERFACES.</em>
+              </div>
+              <span class="shape-caption">PROJECT 03 / IN PROGRESS</span>
+            </div>
+            <div class="project-info">
+              <div>
+                <span class="project-type">03 — UPCOMING</span>
+                <h3>CCE Study Tracker</h3>
+                <p>
+                  A lightweight semester planner and CGPA utility built for IIUC
+                  engineering undergraduates.
+                </p>
+              </div>
+              <span class="project-arrow">↗</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section education-section reveal" id="education">
+        <div class="container education-grid">
+          <div class="section-heading">
+            <p class="section-label">04 / EDUCATION</p>
+            <h2>Academic <span>journey.</span></h2>
+          </div>
+          <div class="education-card">
+            <div class="education-mark">IIUC</div>
+            <div class="education-copy">
+              <span class="project-type"
+                >B.SC. IN ENGINEERING · ID: E261018</span
+              >
+              <h3>International Islamic University Chittagong</h3>
+              <p>Department of Computer and Communication Engineering (CCE)</p>
+              <span class="education-note"
+                >Spring 2026 – Autumn 2029 · Kumira, Chattogram</span
+              >
+            </div>
+            <span class="education-year">2026</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROFESSIONAL 3D CONTACT & SOCIAL HUB -->
+      <section class="contact-section reveal" id="contact">
+        <div class="container contact-inner">
+          <p class="section-label">05 / CONTACT &amp; CHANNELS</p>
+          <h2>Let's connect &amp;<br /><span>build something great.</span></h2>
+          <p class="contact-description">
+            Reach out directly via email, phone, WhatsApp, or connect with me
+            across my social profiles.
+          </p>
+
+          <!-- Professional Glassmorphic Info Grid -->
+          <div class="contact-info-grid">
+            <a
+              href="mailto:isfakurrahman969@gmail.com"
+              class="contact-card-item"
+            >
+              <div class="cc-icon email-ic">✉</div>
+              <span class="cc-label">Email Me</span>
+              <strong class="cc-val">isfakurrahman969@gmail.com</strong>
+            </a>
+
+            <a href="tel:01825157616" class="contact-card-item">
+              <div class="cc-icon phone-ic">📞</div>
+              <span class="cc-label">Direct Phone</span>
+              <strong class="cc-val">01825157616</strong>
+            </a>
+
+            <a
+              href="https://wa.me/8801825157616"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-card-item"
+            >
+              <div class="cc-icon whatsapp-ic">💬</div>
+              <span class="cc-label">WhatsApp Chat</span>
+              <strong class="cc-val">+880 1825-157616</strong>
+            </a>
+
+            <div class="contact-card-item location-item">
+              <div class="cc-icon location-ic">📍</div>
+              <span class="cc-label">Location</span>
+              <strong class="cc-val">Teknaf, Cox's Bazar</strong>
+            </div>
+          </div>
+
+          <!-- Interactive Direct Social Hub Buttons -->
+          <div class="social-hub-actions">
+            <a
+              href="https://www.facebook.com/search/top?q=Isfakur%20Rahman"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-btn fb-btn"
+            >
+              <span class="soc-icon">f</span> Facebook: Isfakur Rahman ↗
+            </a>
+            <a
+              href="https://www.tiktok.com/@isfaky"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-btn tt-btn"
+            >
+              <span class="soc-icon">♪</span> TikTok: @isfaky ↗
+            </a>
+          </div>
+
+          <div class="contact-links">
+            <span>ISFAKUR RAHMAN</span>
+            <span>TEKNAF, COX'S BAZAR</span>
+            <span>BANGLADESH</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <a class="brand" href="#home"
+        ><span class="brand-mark">I</span
+        ><span>ISFAKUR<span class="brand-dot">.</span></span></a
+      >
+      <p>Crafted with precision · HTML5, CSS3 &amp; Vanilla JS.</p>
+      <span>© 2026 ISFAKUR RAHMAN</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
